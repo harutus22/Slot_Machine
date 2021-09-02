@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lucky Leprechaun</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="text">Зарегистрируйтесь и получите доступ более чем к 1000 слотам! <font fgcolor='#ffff00'>Для завершения регистрации вам нужно подтвердить свой номер</font> </string>
+    <string name="enter_sms">Введите код потверждения из смс</string>
+
+    <string name="file_chooser_title" translatable="false">choose file</string>
+    <string name="cannot_open_file_chooser_txt" translatable="false">Open file</string>
+    <string name="facebook_app_id">0</string>
+</resources>

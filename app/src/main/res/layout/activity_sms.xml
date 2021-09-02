@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SmsActivity"
+    android:background="@drawable/bg_reg">
+
+    <ImageView
+        android:id="@+id/forwardBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/reg_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.85"/>
+
+    <ImageView
+        android:id="@+id/plashka"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/reg_plashka"
+        app:layout_constraintTop_toTopOf="@id/forwardBack"
+        app:layout_constraintBottom_toBottomOf="@id/forwardBack"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="@id/getSmsBtn"
+        app:layout_constraintEnd_toEndOf="@id/getSmsBtn"
+        app:layout_constraintTop_toTopOf="@id/plashka"
+        app:layout_constraintBottom_toBottomOf="@id/forwardBack"
+        app:layout_constraintVertical_bias="0.35"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="60dp"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:text="@string/text"/>
+
+    <LinearLayout
+        android:id="@+id/number_lay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/text"
+        app:layout_constraintEnd_toEndOf="@id/text"
+        app:layout_constraintTop_toBottomOf="@id/text"
+        app:layout_constraintBottom_toTopOf="@id/no_code"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/country_back"
+        android:padding="5dp">
+
+        <Spinner
+            android:id="@+id/countrySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/text"
+            app:layout_constraintStart_toStartOf="@id/text"
+            tools:listitem="@layout/spinner_item"
+            android:spinnerMode="dropdown"
+            android:background="@null"
+            />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/countrySpinner"
+            app:layout_constraintBottom_toBottomOf="@id/countrySpinner"
+            android:inputType="number"
+            android:hint="Ваш номер телефона"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:backgroundTint="@android:color/transparent"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/no_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="@id/getSmsBtn"
+        app:layout_constraintEnd_toEndOf="@id/getSmsBtn"
+        app:layout_constraintTop_toBottomOf="@id/number_lay"
+        app:layout_constraintBottom_toTopOf="@id/getSmsBtn"
+        app:layout_constraintVertical_bias="0.35"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="60dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:text="Код города вводить не нужно!"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getSmsBtn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@id/forwardBack"
+        app:layout_constraintStart_toStartOf="@id/forwardBack"
+        app:layout_constraintTop_toTopOf="@id/forwardBack"
+        app:layout_constraintEnd_toEndOf="@id/forwardBack"
+        app:layout_constraintVertical_bias="0.7"
+        android:textSize="12sp"
+        android:background="@drawable/sms_button"
+        android:text="Получить смс код"
+        android:textColor="@android:color/white"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

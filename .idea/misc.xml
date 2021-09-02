@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/circle_btn_back.xml" value="0.18468468468468469" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/close_btn_circle.xml" value="0.18468468468468469" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/combo_back.xml" value="0.18468468468468469" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/country_back.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/drop_down.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/drop_down_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/edit_check_sms_bg.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/home.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/play.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/play_button.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/sms_button.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/stroke_gradient.xml" value="0.18468468468468469" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/switch_btn.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/track.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/drawable/write_button.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_check_code.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_end.xml" value="0.17072072072072073" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_main.xml" value="0.22776442307692307" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_main2.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_showcase.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_sms.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_splash.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/activity_web.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/combination_view.xml" value="0.17072072072072073" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/fragment_blank.xml" value="0.17072072072072073" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/fragment_help.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/fragment_jackpot.xml" value="0.17072072072072073" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/help_pop_up.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/image_view_scrolling.xml" value="0.11322463768115942" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/pop_up_layout.xml" value="0.11322463768115942" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/pop_up_layout_item.xml" value="0.15855855855855855" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/showcase_item.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/spinner_item.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/layout/spinner_item_drop_down.xml" value="0.1890625" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/menu/popup_menu.xml" value="0.16844444444444445" />
+        <entry key="..\:/Users/User/Desktop/new Apps/SlotMachine2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
