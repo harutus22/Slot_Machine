@@ -7,6 +7,7 @@ import android.widget.ImageView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import coil.load
 import com.bumptech.glide.Glide
 import com.luck.vullkleprikon.R
 
@@ -28,19 +29,7 @@ class ShowcaseAdapter(private val list: ArrayList<ShowcaseModel>, val onShowcase
         private val action = itemView.findViewById<AppCompatButton>(R.id.action)
 
         fun bind(model: ShowcaseModel){
-//            if (model.url != ""){
-//                Glide.with(itemView.context).load(model.url).into(image)
-//            }  else
-                image.setImageResource(model.image)
-            action.background = ContextCompat.getDrawable(itemView.context,
-                if (model.image == R.drawable.telegram ||
-                    model.image == R.drawable.watssup) {
-                        action.text = "Написать"
-                        R.drawable.write_button
-                } else {
-                    action.text = "Играть"
-                    R.drawable.play_button
-                })
+            image.load(model.icon)
             action.setOnClickListener {
                 onShowcaseClicked.onShowcaseClick(model.url)
             }

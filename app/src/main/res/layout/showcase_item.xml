@@ -24,10 +24,8 @@
 
             <ImageView
                 android:id="@+id/image"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/azino"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 

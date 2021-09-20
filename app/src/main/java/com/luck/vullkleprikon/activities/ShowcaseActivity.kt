@@ -74,21 +74,9 @@ class ShowcaseActivity : AppCompatActivity(), OnShowcaseClicked {
 
     private fun initList(jsonArray: JSONArray){
         arrayShow = ArrayList<ShowcaseModel>()
-        arrayShow.apply {
-            add(ShowcaseModel(image = R.drawable.vulkan))
-            add(ShowcaseModel(image = R.drawable.vulkan_platinum))
-            add(ShowcaseModel(image = R.drawable.pin_up))
-            add(ShowcaseModel(image = R.drawable.maxbet))
-            add(ShowcaseModel(image = R.drawable.joycasino))
-            add(ShowcaseModel(image = R.drawable.telegram))
-            add(ShowcaseModel(image = R.drawable.azino))
-            add(ShowcaseModel(image = R.drawable.slottica))
-            add(ShowcaseModel(image = R.drawable.watssup))
-        }
         for (i in 0 until  jsonArray.length()){
             val jsonObj = jsonArray.getJSONObject(i)
-            arrayShow[i].icon = jsonObj.getString("image")
-            arrayShow[i].url = jsonObj.getString("url")
+            arrayShow.add(ShowcaseModel(icon = jsonObj.getString("image"), url = jsonObj.getString("url")))
         }
     }
 
